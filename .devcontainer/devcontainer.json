@@ -1,4 +1,6 @@
 {
-    "image":"ubuntu",
+    "build": {
+		"dockerfile": "Dockerfile"
+	},
     "initializeCommand":"test x"
 }
