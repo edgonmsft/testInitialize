@@ -2,5 +2,5 @@
     "build": {
 		"dockerfile": "Dockerfile"
 	},
-    "initializeCommand":"test x"
+    "remoteUser": "codespace"
 }
