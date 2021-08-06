@@ -5,7 +5,7 @@ ARG USER_UID=1000
 ARG HOMEDIR=/home/$USERNAME
 
 RUN apt-get update
-RUN apt-get install zip unzip sudo git
+RUN apt-get install -y zip unzip sudo git
 RUN useradd -s /bin/bash --uid $USER_UID -m $USERNAME
 RUN mkdir -p /home/$USERNAME
 RUN mkdir -p /etc/sudoers.d
